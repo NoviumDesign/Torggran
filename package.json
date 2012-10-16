@@ -1,0 +1,13 @@
+{
+  "name": "Marob",
+  "description": "",
+  "author": "Novium Design<info@noviumdesign.se>",
+  "dependencies": {
+    "coffee-script": ">= 1.3.3",
+    "jade": ">= 0.27.2",
+    "knox": ">= 0.3.0",
+    "less": ">= 1.3.0",
+    "uglify-js": ">= 1.3.3"
+  },
+  "version": "1.0.0"
+}

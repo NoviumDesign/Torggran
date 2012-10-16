@@ -1,0 +1,282 @@
+doctype html
+
+html
+  head
+    meta(charset="utf-8")
+
+    title Torggran
+
+    meta(name="description", content="Vi levererar torggranar för offentlig miljö")
+    meta(name="keywords", content="Kungsgran, Julgran, Rödgran, Torggran, Gran")
+
+    link(rel="stylesheet", href="style.css")
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+  body
+    .first
+      .container
+        .row.jumbotron
+          .span12
+            img(src="assets/jumbotron.jpg")
+
+        .row
+          .span8
+            .row
+              .span4.quality
+                h2 Leasa en riktig julgran
+
+                p Vi på Torggran vet hur stressigt det kan vara i juletider. Därför erbjuder vi ett helhetskoncept där vi står för leverans, uppställning &amp; hämtning av granar. Vi kallar det helt enkelt att leasa en julgran.
+                
+                h2 De finaste kungs- och rödgranarna
+
+                p Oavsett om det är en jättelik torggran eller en mindre gran så leverar vi på torggran endast de finaste granarna.
+              .span4
+                h2#contact-us Kontakta oss
+
+                p Om du vill diskutera kring våra granar, lägga en beställning eller om du har några frågor så är du mer än välkommen att kontakta oss på Torggran! Du kan nå oss på telefon under kontorstid, eller genom epost.
+
+                span#shake
+                  h4 08-723 1000 (mån-fre, 08:30 - 18:00)
+                  h4 
+                    a#order-link(href="mailto:info@torggran.se") info@torggran.se
+
+          .span4.hidden-phone
+            h2 Leveranser från vecka 45!
+            p Från vecka 45 börjar vi leverera granar för torg, gallerior, företag och bemanningsfirmor. Se till att lägga er beställning i god tid för att säkerställa en smidig leverans.
+
+    .second.hidden-phone
+      .upper
+        .container
+          .row
+            .span12
+              h1 I de djupaste skogarna hittar man de finaste julgranarna
+      .lower
+        .container
+          .row
+            .span3.offset1
+              h2 Det tar tid att få fram de vackraste granarna
+
+              p Genom årtionden av skogsskötsel har vi lärt oss hur man får fram de vackraste granarna. Avverkning får inte ske förens granen är riktigt ståtlig. En stor torggran kan vara hela 50-60 år gammal!
+
+            .span8.macrotree.photo
+              img(src="assets/macrotree.jpg")
+          .row
+            .span8.kungsgran.photo
+              img(src="assets/kungsgran.jpg")
+            .span3
+              h2 Klassisk rödgran eller lyxig kungsgran?
+
+              p Vi arbetar med den klassiska rödgranen och den lyxiga kungsgranen. Rödgranen är väldoftande med vassa barr. Passar bra för utomhusbruk. Kungsgranen är mjuk och och barrar mindre, passar utmärkt för att placeras i köpcentrum och gallerior.
+    .third.hidden-phone
+      .upper
+        .container
+          .row
+            .span12
+              h1 Med en passion för perfektionism tar vi hand om er blivande gran i ur och skur 
+      .lower
+        .container
+          .row.gunnar
+            .span4.offset1
+              h2 Håkan pysslar om er blivande gran - år efter år!
+
+              p Håkan är väldigt speciell för oss. I storm och snö, i regn och rusk. Alltid är Håkan där för de små liven. Från barnsben tills att plantorna blir stora, ståtliga och vuxna granar. Allt med en passion för att få de finaste granarna att växa. Tack för din insats, Håkan!
+            .span7.photo
+                img(src="assets/gunnar.jpg")
+          .row.truck
+            .span7.photo
+              img(src="assets/truck.jpg")
+            .span4
+              h2 Leverans och uppställning
+
+              p Vi levererar era granar hela vägen fram, direkt från huggning. Om ni önskar hjälper vi er med uppställning och pyntning. Detta garanterar er de bästa och finaste granarna med minimalt krångel.  Vi levererar till kommuner, föreningar och bemanningsfirmor. Vid större beställningar, begär en offert.
+          .row.gunnar
+            .span4.offset1
+              h2 Leasa en riktig julgran!
+
+              p Det smidigaste alternativet är att leasa en julgran. Vi tar hand om leverans, uppställning och hämtning. Perfekt till kontoret, företaget eller gallerian. Studera vår prislista för att se vilka grantyper och höjder vi erbjuder. Vid större beställningar eller om ni önskar höjder som inte finns med i prislistan, begär en offert.
+
+            .span7.photo
+                img(src="assets/postgran.jpg")
+
+    .fourth
+      .container
+        .row
+          .span4.enlighten
+            h2 De finaste granarna
+
+            p När du bestämt dig för att beställa en gran från oss på Torggran kan du göra det antingen genom att fylla i beställningsformuläret eller ringa oss på <b>08-723 1000</b>.
+              
+            h3 Våra granar
+
+            p Vi levererar endast de största och finaste Kungs- och rödgranarna.
+
+            a.btn.hidden-phone#price(href="#pricelist", role="button", data-toggle="modal") Se vår prislista
+
+            h2 Nyhetsbrev
+
+            form#mc.validate(action='http://torggran.us6.list-manage1.com/subscribe/post?u=0885db5ce997c433a585841b5&amp;id=c896f90186', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='novalidate')
+              label(for='mc-email') Prenumerera på vårt nyhetsbrev för de senaste erbjudandena.
+              input#mc-email.email(type='email', value='', name='EMAIL', placeholder='E-mail', required='required')
+              input.btn(type='submit', value='Prenumerera', name='subscribe')
+          .span8
+            h2 Boka er gran redan idag!
+            form#order.form-horizontal
+              .control-group
+                label.control-label Fullständigt namn
+                .controls
+                  input.span3(disabled, type='text')
+              .control-group
+                label.control-label Adress
+                .controls
+                  input.span3(disabled, type='text')
+                  span.help-block ex. Granégatan 10 A, 837 62, Stockholm
+              .control-group
+                label.control-label Telefonnummer
+                .controls
+                  input.span3(disabled, type='tel')
+              .control-group
+                label.control-label E-post
+                .controls
+                  input.span3(disabled, type='email')
+              .control-group
+                label.control-label Julgran
+                .controls
+                  select.span3
+                    option -- Välj grantyp --
+                    option Rödgran
+                    option Kungsgran
+              .control-group
+                label.control-label Höjd
+                .controls
+                  input.span3(type='number', min="1", max="14")
+
+    .fifth
+      .container.clearfix
+        img(src='assets/logo.png')
+
+        .right
+          p Torggran
+          p info@torggran.se
+          p 08-723 1000
+
+    .modal.megamodal.hide.fade#pricelist
+      .modal-header(aria-hidden="true")
+        button(type='button', class="close", data-dismiss="modal", aria-hidden="true") x
+        h2 Prislista
+      .modal-body
+
+        .row
+          .span3
+            h3 Transport
+            ul
+              li 1-3 m 600:- per leveransplats (gäller vid köp av minst 5 granar)
+              li 3-6 m 700:- per leveransplats
+              li 7-9 m 1400:- per leveransplats
+              li 10-14 m 2000:- per leveransplats
+          .span3
+            h3 Resning & montage
+            p Resning av gran utförs mot 1200:- per påbörjad timme.
+            p Nedmontering och borttransport erbjuds för 1200:- per påbörjad timme.
+          .span3
+            h3 Leasing
+            p När du leasar en gran ingår kungsgran klass 1 (1,75-2,25 meter), transport, granfot uppställning samt borttransport. Pris 2200:- + moms.
+            p Extra stor: Här ingår kungsgran klass 1 (2,5-3 meter), transport, extra stor granfot, uppställning samt borttransport. Pris 2800:- + moms.
+            p Vid större granar för leasing, vänligen lämna en förfrågan.
+
+        .row
+          .span3
+            h3 Rödgran
+            p Picea Abies. Ekologiska. 
+            table.table.table-striped.table-condensed.table-hover
+              thead
+                tr
+                  th Höjd
+                  th Pris
+              tbody
+                tr
+                  td 1,5-2,5
+                  td 529:-
+                tr
+                  td 3
+                  td 995:-
+                tr
+                  td 4-5
+                  td 1895:-
+                tr
+                  td 6
+                  td 2995:-
+                tr
+                  td 7-8
+                  td 3795:-
+                tr
+                  td 10
+                  td 7495:-
+                tr
+                  td 12-13
+                  td 12995:-
+
+          .span3
+            h3 Rödgran
+            p Formklippt Luxus 
+            table.table.table-striped.table-condensed.table-hover
+              thead
+                tr
+                  th Höjd
+                  th Pris
+              tbody
+                tr
+                  td 1,75 - 2,5
+                  td 440:-
+                tr
+                  td 2,5 - 3
+                  td 640:-
+                tr
+                  td 3 - 4
+                  td 1200:-
+                 tr
+                  td 4 - 5
+                  td 1550:-
+                tr
+                  td 5 - 6
+                  td 2500:-
+                tr
+                  td 6 - 7
+                  td 3650:-
+                tr
+                  td 7 - 8
+                  td 4500:-
+                tr
+                  td 8 - 9
+                  td 5250:-
+                tr
+                  td 9 - 10
+                  td 6000:-
+          .span3
+            h3 Kungsgran
+            p Abies Nordmanniana. Klass A.
+            table.table.table-striped.table-condensed.table-hover
+              thead
+                tr
+                  th Höjd
+                  th Pris
+              tbody
+                tr
+                  td 1,5-2,5
+                  td 895:-
+                tr
+                  td 3
+                  td 1995:-
+                tr
+                  td 4
+                  td 2495:-
+                 tr
+                  td 5
+                  td 2995:-
+                tr
+                  td 6
+                  td 4495:-
+
+    script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js")
+    script(type="text/javascript", src="assets/bootstrap.min.js")
+    script(type="text/javascript")
+      !{script}
