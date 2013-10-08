@@ -15,6 +15,9 @@ html
   body
     .first
       .container
+        .row
+          .span12
+            img.masterlogo(src="assets/masterlogo.jpg")
         .row.jumbotron
           .span12
             img(src="assets/jumbotron.jpg")
@@ -25,24 +28,40 @@ html
               .span4.quality
                 h2 Leasa en riktig julgran
 
-                p Vi på Torggran vet hur stressigt det kan vara i juletider. Därför erbjuder vi ett helhetskoncept där vi står för leverans, uppställning &amp; hämtning av granar. Vi kallar det helt enkelt att leasa en julgran.
+                p Det absolut smidigaste alternativet är att leasa en julgran. Vi tar hand om leverans, uppställning och bortforsling. Perfekt till kontoret, företaget eller gallerian. Vi hämtar upp er gran inom 48 timmar från det att ni begärt bortforsling.
                 
-                h2 De finaste kungs- och rödgranarna
+                h2 Här står vi
 
-                p Oavsett om det är en jättelik torggran eller en mindre gran så leverar vi på torggran endast de finaste granarna.
+                p Du kan från den 1 december hämta din gran vid 
+                  strong Preem Norr Mälarstrand 32
+                  span, Kungsholmen. Vi har klass A kungsgranar och rödgranar från 0,5-4m på lager. Välkommen förbi på en kopp kaffe i vinterkylan medan ni väljer den perfekta granen. Vi har öppet 08:00-20:00 alla dagar.
+
+                a.hidden-phone(href="http://kartor.eniro.se/m/nMbq3")
+                  img(src="assets/map.jpg").map
+
+              .span4.hidden-phone
+                h2 Leveranser från vecka 45!
+                p Från vecka 45 börjar vi leverera granar för torg, gallerior, företag och bemanningsfirmor. Se till att lägga er beställning i god tid för att säkerställa en smidig leverans.
+
+              .span4.hidden-phone
+                h2 Julgranar i parti
+                p Kungsgranar och Rödgranar för avhämtning på vårat lager. Transport går att ordna vid behov.
+                p Klass A och klass B. Storlekar: 1,75-2,25m, 2,25-2,5m samt 2,5-3m.
+          .span4
+            .row
+              .span4
+                h2 Fri frakt
+                p När ni beställer genom oss så får ni alltid fri frakt på granarna. Julgranarna kommer leveras på avtalad plats utan extra kostnader. Alla granar under 10m levereras nätade vilket också garanterar er den bästa kvalitén på er julgran.
+
               .span4
                 h2#contact-us Kontakta oss
 
-                p Om du vill diskutera kring våra granar, lägga en beställning eller om du har några frågor så är du mer än välkommen att kontakta oss på Torggran! Du kan nå oss på telefon under kontorstid, eller genom epost.
+                p Om du vill diskutera kring våra granar, lägga en beställning eller om du har några frågor så är du mer än välkommen att kontakta oss! Du kan nå oss på telefon under kontorstid, eller genom epost.
 
                 span#shake
-                  h4 08-723 1000 (mån-fre, 08:30 - 18:00)
+                  h4 08-723 1000 (mån-fre, 08:00 - 20:00)
                   h4 
-                    a#order-link(href="mailto:info@torggran.se") info@torggran.se
-
-          .span4.hidden-phone
-            h2 Leveranser från vecka 45!
-            p Från vecka 45 börjar vi leverera granar för torg, gallerior, företag och bemanningsfirmor. Se till att lägga er beställning i god tid för att säkerställa en smidig leverans.
+                    a#order-link(href="mailto:info@torggran.se") info@torggran.se           
 
     .second.hidden-phone
       .upper
@@ -86,15 +105,13 @@ html
             .span7.photo
               img(src="assets/truck.jpg")
             .span4
-              h2 Leverans och uppställning
+              h2 Torggranar
 
-              p Vi levererar era granar hela vägen fram, direkt från huggning. Om ni önskar hjälper vi er med uppställning och pyntning. Detta garanterar er de bästa och finaste granarna med minimalt krångel.  Vi levererar till kommuner, föreningar och bemanningsfirmor. Vid större beställningar, begär en offert.
+              p Vi levererar era granar hela vägen fram, direkt från huggning.  Alla granar under 10m levereras nätade till avtalad plats. På så sätt kan vi garantera er de finaste granarna. Detta garanterar er de bästa och finaste granarna med minimalt krångel. Vi levererar till kommuner, föreningar och bemanningsfirmor. Vid större beställningar, begär en offert.
           .row.gunnar
             .span4.offset1
               h2 Leasa en riktig julgran!
-
-              p Det smidigaste alternativet är att leasa en julgran. Vi tar hand om leverans, uppställning och hämtning. Perfekt till kontoret, företaget eller gallerian. Studera vår prislista för att se vilka grantyper och höjder vi erbjuder. Vid större beställningar eller om ni önskar höjder som inte finns med i prislistan, begär en offert.
-
+              p Det absolut smidigaste alternativet är att leasa en julgran. Vi tar hand om leverans, uppställning och bortforsling. Perfekt till kontoret, företaget eller gallerian. Vi hämtar upp er gran inom 48 timmar efter det att ni begärt bortforsling.
             .span7.photo
                 img(src="assets/postgran.jpg")
 
@@ -104,13 +121,14 @@ html
           .span4.enlighten
             h2 De finaste granarna
 
-            p När du bestämt dig för att beställa en gran från oss på Torggran kan du göra det antingen genom att fylla i beställningsformuläret eller ringa oss på <b>08-723 1000</b>.
+            p När ni bestämt er för att beställa en julgran från oss kan ni göra det antingen genom att skicka ett epostmeddelande eller ringa oss på <b>08-723 1000</b>.
               
             h3 Våra granar
 
             p Vi levererar endast de största och finaste Kungs- och rödgranarna.
 
-            a.btn.hidden-phone#price(href="#pricelist", role="button", data-toggle="modal") Se vår prislista
+            a.btn.btn-info.hidden-phone#price(href="#pricelist", role="button", data-toggle="modal") Se vår prislista
+            a.btn.btn-info.visible-phone#price(href="assets/prislista2012.pdf") Se vår prislista
 
             h2 Nyhetsbrev
 
@@ -118,37 +136,11 @@ html
               label(for='mc-email') Prenumerera på vårt nyhetsbrev för de senaste erbjudandena.
               input#mc-email.email(type='email', value='', name='EMAIL', placeholder='E-mail', required='required')
               input.btn(type='submit', value='Prenumerera', name='subscribe')
-          .span8
+          .span4
             h2 Boka er gran redan idag!
-            form#order.form-horizontal
-              .control-group
-                label.control-label Fullständigt namn
-                .controls
-                  input.span3(disabled, type='text')
-              .control-group
-                label.control-label Adress
-                .controls
-                  input.span3(disabled, type='text')
-                  span.help-block ex. Granégatan 10 A, 837 62, Stockholm
-              .control-group
-                label.control-label Telefonnummer
-                .controls
-                  input.span3(disabled, type='tel')
-              .control-group
-                label.control-label E-post
-                .controls
-                  input.span3(disabled, type='email')
-              .control-group
-                label.control-label Julgran
-                .controls
-                  select.span3
-                    option -- Välj grantyp --
-                    option Rödgran
-                    option Kungsgran
-              .control-group
-                label.control-label Höjd
-                .controls
-                  input.span3(type='number', min="1", max="14")
+            p Skicka ett epostmeddelande till oss med vilka granar samt höjder ni önskar så återkommer vi till er med tider för leveras.
+            h3 
+              a(href="mailto:info@torggran.se") info@torggran.se
 
     .fifth
       .container.clearfix
@@ -168,12 +160,12 @@ html
         .row
           .span3
             h3 Leasing
-            p När du leasar en gran ingår kungsgran klass 1 (1,75-2,25 meter), transport, granfot uppställning samt borttransport. Pris 2200:-
+            p När ni leasar en gran ingår kungsgran klass 1 (1,75-2,25 meter), transport, granfot uppställning samt borttransport. Pris 2200:-
             p Extra stor: Här ingår kungsgran klass 1 (2,5-3 meter), transport, extra stor granfot, uppställning samt borttransport. Pris 2800:-
             p Vid större granar för leasing, vänligen lämna en förfrågan.
           .span3
             h3 Transport
-            p Alltid fri leverans stockholmsområdet!
+            p Alltid fri leverans i stockholmsområdet!
 
         .row
           .span3
